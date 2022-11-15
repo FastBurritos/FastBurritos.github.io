@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Fast Burritos </title>
+
+</head>
+<body>
+
+    <style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(logo.jpeg) height="1000" width="500" no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+
+
+</style>
+
+    <div class="head">
+
+        <div class="logo">
+            <a href="#"><img src="logo.JPEG" width="75" height="75"></a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#"><a href= "file:///D:/proyecto/FAST%20BURRITOS1.html" target="blank">Inicio</a>
+            <a href="#"><a href= "file:///D:/proyecto/burritos.html" target="blank">Burritos</a>
+            <a href="#"><a href= "file:///D:/proyecto/bebidas.html" target="blank">Bebidas</a>
+            <a href="#"><a href= "file:///D:/proyecto/postres.html" target="blank">Postres</a>
+            <a href="#"><a href= "file:///D:/proyecto/preguntasfrecuentes.html" target="blank">Preguntas frecuentes</a>
+            <a href="#"><a href= "https://fastburritos.blogspot.com/" target="blank">Nuestro vlog</a>
+              
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title"><font color =black>Inicio</font></h2>
+        <p>
+             <font color =black>Aqui encontraras los mejores burritos, con el mejor sazón que podras encontrar y el precio que se ajustara a tu monedero</font>
+        </p>
+
+        <div class="btn-home">
+            <a href="#" class="btn">Saber mas</a>
+            <a href="#" class="btn">Saber mas</a>
+        </div>
+    </header>
+
+    <section class="content sau">
+
+        <h2 class="title"><font color =black>Redes</font></h2>
+        <p>Estas son nuestras redes sociales donde nos puedes encontrar tambien</p>
+        
+        <div class="box-container">
+
+            
+            <div class="box">
+                <i class="fab fa-facebook"></i>
+                <h3><a href="#"><A HREF="https://www.facebook.com/profile.php?id=100087815016216&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_transition=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true">Facebook</A></h3>
+                    <p>facebook</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-instagram"></i>
+                <h3><a href="#"><A HREF="https://www.instagram.com/fast_burritos/">Instragram</A></h3>
+                    <p>Instragram</p>
+            </div>
+
+        </div>
+</section>
+    </section>
+
+    <section class="content about">
+
+        <h2 class="title"><font color =white>Acerca de nosotros</font></h2>
+        <p>Somos un pequeño negocio que queremos ofrecerte un comida de calidad, una comida que disfrutes ya sea en tu casa o trabajo, queremos darnos a conocer en todos lados y que sepas quienes somos, da clic en saber mas para que veas nuestro video en youtube
+        </p>
+
+        <a href="#"><a href="#"><a href= "https://www.youtube.com/channel/UCOLlAV87eg0fOmG09Iy7lxw" target="blank" class="btn">Saber mas</a>
+
+    </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            <h2 class="title"><font color =black>Precios y Menu</font></h2>
+            <p>  Aqui estan todos nuestros precios de nuestros burritos y de nuestras bedidas y nuestras ricas brochetas</p>
+
+            <a href="#"><a href= "file:///D:/proyecto/precios%20y%20menu.html" target="blank"class="btn">Saber precio</a>
+
+        </article>
+    </section>
+    <section class="content contact">
+        <h2 class="title"><font color =white>Contacto</font></h2>
+        <td><center><font color =white>Puedes contactarnos atraves de este Numero telefonico: 6641715825</font></center></td>
+</br>
+<td><center><font color =white>Gmail:<a href="https://moralesgomezeliu@gmail.com.google.com/mail/u?tab=rm#inbox"target="bank">moralesgomezeliu@gmail.com<td></font>
+</tr>
+</br>
+<td><center><font color =white>Gmail:<a href="https://estrellaramirez24032@gmail.com.google.com/mail/u?tab=rm#inbox"target="bank">estrellaramirez24032@gmail.com<td></font>
+</tr>
+</p></p>
+<div class="footer__markets-grid-item">
+                           
+                            <ul class="footer__links">
+                                   
+                    </p>
+                </div>
+            </div>
+        </div>
+</footer>
+<center>&#169; 2022 Fast Burritos, Inc. Todos los derechos reservados a Edwin Gomez y Estrella Ramirez</center>
+<td> <p><center>&copy; Desarrollado por Edwin Gomez y Estrella Ramirez</p> </td></center>
+</P>                                    
+        <section>
+        <figure class="map">
+            <img src="ubicacion.png" height="300" width="500" alt="imagen">
+        </figure>
+    </section>
+    
+</body>
+</html>
